@@ -8,7 +8,7 @@ from time import time, sleep
 import telebot
 
 
-TELEBOT_TOKEN = '1075640775:AAEc3l9jrnaMtTOdi41Wv58hndDSwSXhExA'
+TELEBOT_TOKEN = open('tg.tkn').read()
 TeleBot = telebot.TeleBot(TELEBOT_TOKEN)
 ADMIN_ID = [150486866]
 
